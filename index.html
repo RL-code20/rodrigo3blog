@@ -1,0 +1,154 @@
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apresentação Rodrigo</title>
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Keyboard&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tilt+Neon&display=swap');
+</style>
+</head>
+
+<body>
+    
+
+    <div class="contaniner">
+    
+  <h1>Prazer, Rodrigo</h1>
+  <h2>Venha ver meu portifolio de perto!</h2>
+<div class="Divs">
+    <div class="bio"><div class="img"><img src="./foto.jpeg" alt="" width="300px"></div><div class="p"><h2 class="h2">Biografia</h2><p> Estudo Programação e Design a Aproximadamente 6 anos Nasci e vivo em<br>  Montes Claros - MG</p></div></div>
+  <div class="clas">
+    <h2 class="h22">Portifolio</h2>
+    <button onclick="texto3()" class="local"><h2>Local</h2></button>
+  <div id="local"></div>
+  <button onclick="texto2()" class="trabalho"><h2>Qual é o Meu Trabalho</h2><br></button><br>
+  <div id="Trabalho"></div>
+  <button onclick="texto1()" class="prog"><h2>Conhecimentos</h2></button>
+  <div id="prog"></div></div></div>
+  <div class="Card">
+    <h2 class="h2">contato:</h2>
+    <h1>Email:</h1>
+    <p>rodrigo24102019@outlook.com</p>
+    <h1>Numero:</h1>
+    <p>(38) 99137-2410</p>
+  </div>
+</div>
+  <script>    function sumir1() {
+        document.getElementById("prog").innerHTML = ``;
+    }
+        function sumir2() {
+        document.getElementById("Trabalho").innerHTML = `
+      `;
+    }
+            function sumir7() {
+        document.getElementById("D2").innerHTML = `
+      `;
+    }
+        function sumir3() {
+           document.getElementById("local").innerHTML = `
+      `;
+    }
+        function sumir4() {
+           document.getElementById("MKT2").innerHTML = `
+      `;
+    }
+        function sumir5() {
+           document.getElementById("Estilista").innerHTML = `
+      `;
+    }
+        function sumir6() {
+           document.getElementById("Prog2").innerHTML = `
+      `;
+    }
+    function texto1() {
+      document.getElementById("prog").innerHTML = `
+        <div class='MKT'>
+          <button onclick='texto4()'><h1>Marketing</h1></button>
+          <div id='MKT2'></div>
+        </div>
+        <div class='Estilo'>
+          <button onclick='texto5()'><h1>Estilismo</h1></button>
+          <div id='Estilista'></div>
+        </div>
+        <div class='Prog'>
+          <button onclick='texto6()'><h1>Programação</h1></button>
+          <div id='Prog2'></div>
+        </div>
+            <div class='D2'>
+          <button onclick='texto7()'><h1>Design</h1></button>
+          <div id='D2'></div>
+        </div>
+              <button onclick="sumir1()" class="sumir"><h1>Tirar</h1></button>
+      `;
+
+    }
+
+    function texto2() {
+      document.getElementById("Trabalho").innerHTML = `
+        <div class="texto02">
+          <p>Sou Programador, Estilista e estou no Marketing Digital especializado em design.</p>
+        </div>
+        <button onclick="sumir2()" class="sumir"><h1>Tirar</h1></button>
+      `;
+    }
+
+    function texto3() {
+      document.getElementById("local").innerHTML = `
+        <div class="texto01">
+          <p>Moro em Montes Claros - MG</p>
+        </div>
+        <button onclick="sumir3()" class="sumir"><h1>Tirar</h1></button>
+      `;
+    }
+
+    function texto4() {
+      document.getElementById("MKT2").innerHTML = `
+        <ul>
+          <li>Marketing há 6 anos</li>
+          <li>Design focado em lucro</li>
+          <li>Especializado em tráfego orgânico</li>
+          <li>Junções inteligentes</li>
+        </ul>
+        <button onclick="sumir4()" class="sumir"><h1>Tirar</h1></button>
+      `;
+    }
+
+    function texto5() {
+      document.getElementById("Estilista").innerHTML = `
+        <ul>
+          <li>Moda há 4 anos</li>
+          <li>Design e criação de modelos</li>
+        </ul>
+        <button onclick="sumir5()" class="sumir"><h1>Tirar</h1></button>
+      `;
+    }
+
+    function texto6() {
+      document.getElementById("Prog2").innerHTML = `
+        <ul>
+          <li>Programação há 6 anos</li>
+          <li>Front-End</li>
+          <li>Back-End</li>
+          <li>Dados e IA (automações)</li>
+        </ul>
+        <button onclick="sumir6()" class="sumir"><h1>Tirar</h1></button>
+      `;
+    }
+    function texto7() {
+      document.getElementById("D2").innerHTML = `
+        <ul>
+          <li>Designer Há 3 anos</li>
+          <li>Photoshop</li>
+          <li>Corel</li>
+        </ul>
+        <button onclick="sumir7()" class="sumir"><h1>Tirar</h1></button>
+      `;
+    }
+
+  </script>
+  </div>
+</body>
+</html>
