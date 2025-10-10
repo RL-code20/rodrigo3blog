@@ -71,12 +71,7 @@ display: flex;
 flex-direction:row;
   margin-top: 100px;
 }
-button:hover{
-    animation: fadeIn forwards 0.5s;}
-        @keyframes fadeIn {
-      from { }
-      to { opacity: 1; transform: translateY(20px) scale(1.1); }
-    }
+
 #local{
         width: 50%;
         font-family: "Roboto Mono", monospace;
@@ -88,4 +83,5 @@ button:hover{
   font-optical-sizing: auto; }
 
 .sumir #trabalho #local{  margin-top: 50px;}
+
 
